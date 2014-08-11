@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+<doctype! HTML>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.break{
+
+	clear: both;
+}
+
+html {
+	background: url(http://imgur.com/7pYkgDn.png);
+	background-repeat: repeat;
+}
+
+#header {
+	bottom-border:solid 1px;
+	width:65%;
+	height:25%;
+	background: url(http://imgur.com/uZqVVOr.png);
+	margin-left: auto;
+	margin-right: auto;
+	font-family:"Trebuchet ms";
+	letter-spacing: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#header img {
+	float:left;
+	width: 140px;
+	border-radius: 100px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#header p {
+	font-size: 50px;
+	background: url(http://imgur.com/uZqVVOr.png);
+	float: right;
+	margin-top: 100px;
+}
+
+#main {
+	width:65%;
+	height:800px;
+	background: url(http://imgur.com/uZqVVOr.png);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+}
+
+#footer {
+	top-border:solid 1px;
+	width: 65%;
+	height:5%;
+	background: url(http://imgur.com/uZqVVOr.png);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: right;
+	font-family: "Century Gothic";
+	vertical-align: middle;
+}
+
+#footer p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: url(http://imgur.com/uZqVVOr.png);
+}
+
+#left {
+	border-right:solid 1px;
+	width: 25%;
+	float: left;
+	background: url(http://imgur.com/uZqVVOr.png);
+	margin: 10px;
+	line-height: 60px;
+	height:95%;
+	font-family:"Century Gothic";
+	letter-spacing: 3px;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#right {
+	width: 70%;
+	float: right;
+	background: url(http://imgur.com/uZqVVOr.png);
+	margin: 10px;
+	height: 95%;
+	border-radius: 20px;
+	font-family: "Century Gothic";
+}
+
+#right p {
+	margin:35px;
+}
+
+#right #rightpersonal2 {
+	font-size: 14px;
+}
+
+#right ol {
+	margin:35px;
+	list-style-type: circle;
+}
+
+#right ol li {
+	padding: 20px;
+}
+
+#right a {
+	margin: 35px;
+}
+
+a:link{color:black; text-decoration: none;}
+a:visited{color:black; text-decoration: none;}
+a:hover{color:black; border: 1px solid; border-radius: 5px;}
+
+a#active{color:black; border: 1px solid; border-radius: 5px;}
